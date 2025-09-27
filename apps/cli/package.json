@@ -1,0 +1,26 @@
+{
+  "name": "@tesseract-demo/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "bin": {
+    "tesseract-demo-client": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@tesseract-demo/shared": "workspace:*",
+    "blessed": "^0.1.81",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.21",
+    "@types/ws": "^8.5.10",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.0"
+  }
+}

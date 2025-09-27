@@ -1,0 +1,13 @@
+{
+  "name": "tesseract-barebones-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Barebones Nostr demo: relay-lite + CLI client (TypeScript, Fastify, ws)",
+  "packageManager": "pnpm@10.17.0",
+  "scripts": {
+    "build": "pnpm -r -w run build",
+    "dev": "echo 'Use app-specific dev scripts'",
+    "lint": "echo 'no lint configured'",
+    "test": "echo 'no tests yet'"
+  }
+}
