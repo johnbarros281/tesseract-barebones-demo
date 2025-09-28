@@ -50,4 +50,4 @@ node "$PREFIX/cli/index.js" "${@}"
 EOF
 chmod +x "$BIN/tesseract-demo-client"
 
-echo "Install complete. Try:\n  tesseract-demo-host\n  tesseract-demo-client ws://localhost:4000/ws"
+echo "Install complete. Try:\n  tesseract-demo-host --ports=4000,4100\n  tesseract-demo-client ws://localhost:4000/ws ws://localhost:4100/ws\n  # In the client, use: /targets all | /targets 1,2 or prefix once: >>1,2 hello"
