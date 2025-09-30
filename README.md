@@ -1,5 +1,7 @@
 # WINNER OF HACKUMBC 2025 HACKATHON: MLH || Best AI Application Built with Cloudflare
 
+Come see our award-winning project in action on [Devpost]([url](https://devpost.com/software/nostr-based-application-for-decentralized-communication))
+
 # Tesseract Barebones Demo
 
 A minimal Nostr demo in a pnpm monorepo with:
