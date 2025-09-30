@@ -1,3 +1,5 @@
+# WINNER OF HACKUMBC 2025 HACKATHON: MLH || Best AI Application Built with Cloudflare
+
 # Tesseract Barebones Demo
 
 A minimal Nostr demo in a pnpm monorepo with:
